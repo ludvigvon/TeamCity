@@ -1,27 +1,29 @@
 using AutoFixture;
 using FluentAssertions;
 using Microsoft.Extensions.Logging;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using NUnit.Framework;
 using TeamCityTutorial.Controllers;
 
 namespace TeamCityTutorial.Tests
 {
+    [TestClass]
     public class HomeControllerTests
     {
+
         private Fixture _fixture;
         private Mock<ILogger<HomeController>> _loggerMock;
         private HomeController _homeController;
 
-        [SetUp]
-        public void Setup()
+        [TestInitialize]
+        public void TestInitialize()
         {
             _fixture = new Fixture();
             _loggerMock = new Mock<ILogger<HomeController>>();
             _homeController = new HomeController(_loggerMock.Object);
         }
 
-        [Test]
+        [TestMethod]
         public void IndexTest()
         {
             //arrange
@@ -33,7 +35,7 @@ namespace TeamCityTutorial.Tests
             actual.Should().NotBeNull();
         }
 
-        [Test]
+        [TestMethod]
         public void PrivacyTest()
         {
             //arrange
