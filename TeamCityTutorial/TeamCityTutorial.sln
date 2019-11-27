@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeamCityTutorial", "TeamCityTutorial\TeamCityTutorial.csproj", "{E89A7697-3F0F-4D7A-B7ED-F152B22385F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCityTutorial.Test", "TeamCityTutorial.Test\TeamCityTutorial.Test.csproj", "{03066AE8-68D0-4AEB-A2A0-D7A61E0A97F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCityTutorial.Tests", "TeamCityTutorial.Tests\TeamCityTutorial.Tests.csproj", "{47545C07-9341-4C03-AA1C-29B5BA116789}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{E89A7697-3F0F-4D7A-B7ED-F152B22385F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E89A7697-3F0F-4D7A-B7ED-F152B22385F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E89A7697-3F0F-4D7A-B7ED-F152B22385F1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{03066AE8-68D0-4AEB-A2A0-D7A61E0A97F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{03066AE8-68D0-4AEB-A2A0-D7A61E0A97F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{03066AE8-68D0-4AEB-A2A0-D7A61E0A97F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{03066AE8-68D0-4AEB-A2A0-D7A61E0A97F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47545C07-9341-4C03-AA1C-29B5BA116789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47545C07-9341-4C03-AA1C-29B5BA116789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47545C07-9341-4C03-AA1C-29B5BA116789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47545C07-9341-4C03-AA1C-29B5BA116789}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
