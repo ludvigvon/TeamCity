@@ -10,7 +10,6 @@ namespace TeamCityTutorial.Tests
     [TestClass]
     public class HomeControllerTests
     {
-
         private Fixture _fixture;
         private Mock<ILogger<HomeController>> _loggerMock;
         private HomeController _homeController;
